@@ -1,0 +1,40 @@
+.homepage {
+  margin: 2vh 2vw;
+}
+
+.directory-menu {
+  // display: grid;
+  // display: flex;
+  // align-items: center;
+  // flex-wrap: wrap;
+}
+
+.first-directory-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1vw;
+}
+
+.remaining-directory-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2vw;
+  margin: 10px auto;
+}
+
+.menu-item {
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30vh;
+}
+
+.content {
+  border: 1px solid black;
+  width: 14vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
